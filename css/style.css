@@ -52,7 +52,9 @@
 }
 .inst__name h1 {
   font-size: 20px;
-  color: blanchedalmond;
+  color: #fff;  text-shadow: -2px -3px #000;
+
+
 }
 strong {
   font-size: 25px;

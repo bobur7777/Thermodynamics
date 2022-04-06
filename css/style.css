@@ -12,14 +12,14 @@
   margin: 0 auto;
 }
 .blur {
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: #000;
   opacity: 0.6;
-  z-index: 0; */
+  z-index: 0;
 }
 .header .container {
   position: relative;
@@ -29,7 +29,7 @@
   max-height: 850px;
   height: 100vh;
   padding: 20px 50px;
-  background-image: url(../img/bg/header__bg.png);
+  background-image: url(/img/bg/header__bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -12,23 +12,24 @@
   margin: 0 auto;
 }
 .blur {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: #000;
   opacity: 0.6;
-  z-index: 0;
+  z-index: 0; */
 }
 .header .container {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
-  height: 850px;
+  max-height: 850px;
+  height: 100vh;
   padding: 20px 50px;
-  background-image: url(../img/bg/bg.jpg);
+  background-image: url(../img/bg/header__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -51,7 +52,7 @@
 }
 .inst__name h1 {
   font-size: 20px;
-  color: blanchedalmond;
+  color: #fff;  text-shadow: -2px -3px #000;
 }
 strong {
   font-size: 25px;
@@ -62,11 +63,11 @@ strong {
   width: 500px;
 }
 .science__name {
-  position: relative;
   font-size: 35px;
   font-weight: bold;
-  color: #ffffff;
-  text-shadow: 1px 1px 5px #fff;
+
+  text-shadow: -2px -3px #000;
+  color: #fff;
 }
 
 .button {
